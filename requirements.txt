@@ -1,7 +1,5 @@
 scikit-learn
 emoji
 pandas
-string
-re
 numpy
 streamlit
