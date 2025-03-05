@@ -146,8 +146,8 @@ if st.session_state.chatbot:
         st.markdown("### Chat History")
         for chat in st.session_state.chat_history:
             st.markdown(f"**You:** {chat['user']}")
-            st.markdown(f"**Bot:** {chat['bot']}")
+            st.markdown(f"{target_user}(**Bot**): {chat['bot']}")
             st.markdown("---")
 
 # Footer
-st.markdown("<hr><p style='text-align: center;'>Built by <a href=\"https://github.com/rohansadaphule\"><b>'Rohan Sadaphule'</b></a> with ❤️ using Streamlit</p>", unsafe_allow_html=True)
+st.markdown("<hr><p style='text-align: center;'>Built by <a href=\"https://github.com/rohansadaphule\"><b><i>Rohan Sadaphule</i></b></a> with 🧠 using Streamlit</p>", unsafe_allow_html=True)
